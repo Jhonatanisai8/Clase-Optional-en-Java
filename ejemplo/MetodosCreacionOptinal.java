@@ -2,13 +2,13 @@ package ejemplo;
 
 import java.util.*;
 
-public class MetodosOptinal {
+public class MetodosCreacionOptinal {
 
     public static void main(String[] args) {
-        new MetodosOptinal();
+        new MetodosCreacionOptinal();
     }
 
-    public MetodosOptinal() {
+    public MetodosCreacionOptinal() {
         // Crea un Optional si el valor no es null.
         System.out.println("USO DEL Optional.of(miNombre);");
         String miNombre = "fernando";
